@@ -1,8 +1,11 @@
+import Hello from "./components/Hello";
+import ButtonExample from "./components/ButtonExample";
+
 function App() {
   return (
-    <div>
-      <h1> Hello World 🌎</h1>
-      <p>My first React app is working!</p>
+    <div style={{ fontFamily: " 'Comic Sans MS', cursive", padding: "2rem" }}>
+      <Hello />
+      <ButtonExample />
     </div>
   );
 }
