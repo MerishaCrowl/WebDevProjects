@@ -22,3 +22,18 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+
+# Dependencies
+node_modules/
+
+# Local environment variables
+.env
+
+# Build files
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
+
